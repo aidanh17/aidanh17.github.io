@@ -1,0 +1,53 @@
+import type { Metadata } from "next";
+import { positions, education } from "@/data/cv";
+import { Timeline } from "@/components/Timeline";
+
+export const metadata: Metadata = {
+  title: "CV — Aidan Herderschee",
+};
+
+export default function CVPage() {
+  return (
+    <div className="mx-auto max-w-[720px] px-6 py-16">
+      <h1
+        className="text-3xl font-bold mb-10"
+        style={{ color: "var(--foreground)" }}
+      >
+        Curriculum Vitae
+      </h1>
+
+      <Timeline title="Positions" entries={positions} />
+      <Timeline title="Education" entries={education} />
+
+      <div className="mt-12">
+        <a
+          href="/cv.pdf"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium text-white no-underline transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "var(--color-accent)" }}
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Download PDF
+        </a>
+        <p
+          className="mt-3 text-sm"
+          style={{ color: "var(--foreground)", opacity: 0.5 }}
+        >
+          Last updated April 2026
+        </p>
+      </div>
+    </div>
+  );
+}
