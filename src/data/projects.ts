@@ -128,13 +128,13 @@ export const projects: Project[] = [
     slug: "inflation",
     title: "Inflation",
     summary:
-      "Deriving fundamental bounds on scalar field dynamics in gravitational spacetimes, with applications from the early universe to black hole horizons.",
+      "Studying semi-classical gravity during inflation, a period of rapid expansion in the very early universe.",
     status: "Active",
     imageUrl:
       "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1200&q=80",
     imageCredit: { name: "Kristopher Roller", url: "https://unsplash.com/@krisroller" },
     overview:
-      "Our universe underwent a brief period of exponential expansion, called inflation, in its earliest moments. Understanding inflation requires computing correlation functions in de Sitter space, the geometry that approximates the inflating universe. This project develops new theoretical tools for these computations and derives fundamental bounds on scalar field dynamics in gravitational backgrounds.",
+      "Our universe underwent a brief period of rapid expansion, called inflation, in its very earliest moments. We study semi-classical gravity during this epoch, developing new theoretical tools for computing correlation functions in de Sitter space, the geometry that approximates the inflating universe, and deriving fundamental bounds on scalar field dynamics in these backgrounds.",
     directions: [
       {
         slug: "field-excursion-bounds",
