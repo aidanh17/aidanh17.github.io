@@ -59,36 +59,33 @@ export default function Home() {
 
           {/* Icon links */}
           <div className="flex items-center gap-1 -ml-2">
-            {/* Google Scholar */}
+            {/* Google Scholar – graduation cap */}
             <IconLink href={profile.links.scholar} label="Google Scholar">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10z" />
-                <path d="M12 11.5V0L24 10h-7.5" />
-                <path d="M0 10L12 0v3L2.5 10z" />
+                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.749-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
               </svg>
             </IconLink>
 
-            {/* arXiv */}
+            {/* arXiv – chi (χ) */}
             <IconLink href={profile.links.arxiv} label="arXiv">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-                <path d="M8 7h8M8 11h8M8 15h4" />
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <line x1="7" y1="3" x2="17" y2="21" />
+                <line x1="17" y1="3" x2="7" y2="21" />
               </svg>
             </IconLink>
 
-            {/* ORCID */}
+            {/* ORCID – official logo */}
             <IconLink href={profile.links.orcid} label="ORCID">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378a.815.815 0 1 1 0 1.63.815.815 0 0 1 0-1.63zM6.6 7.25h1.538v9.5H6.6v-9.5zm3.846 0h4.154c3.346 0 5 2.154 5 4.75s-1.654 4.75-5 4.75H10.446v-9.5zm1.538 1.385v6.73h2.616c2.508 0 3.462-1.577 3.462-3.365s-.954-3.365-3.462-3.365H11.984z" />
               </svg>
             </IconLink>
 
-            {/* INSPIRE */}
+            {/* INSPIRE – stylized i */}
             <IconLink href={profile.links.inspire} label="INSPIRE-HEP">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 6v12M8 8l4 4 4-4" />
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="5" r="2" />
+                <rect x="10" y="9" width="4" height="12" rx="1" />
               </svg>
             </IconLink>
 
