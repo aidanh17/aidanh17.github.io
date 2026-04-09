@@ -181,7 +181,7 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1768280511074-3b3effe7a139?w=1200&q=80",
     imageCredit: { name: "Resource Database", url: "https://unsplash.com/@resourcedatabase" },
     overview:
-      "Many physicists claim that string theory is the unique consistent theory of quantum gravity. My goal is to make such claims precise and quantitative. Starting from minimal physical assumptions (unitarity, Lorentz invariance, analyticity) and asking what scattering amplitudes are allowed, I am working to identify the minimal set of assumptions that single out string theory as the only consistent UV completion of gravity. This work was recently featured in a Quanta Magazine article, [\"Are Strings Still Our Best Hope for a Theory of Everything?\"](https://www.quantamagazine.org/are-strings-still-our-best-hope-for-a-theory-of-everything-20260323/).",
+      "Many physicists claim that string theory is the unique consistent theory of quantum gravity. My goal is to make such claims precise and quantitative. Starting from minimal physical assumptions (unitarity, Lorentz invariance, analyticity), I am working to identify the minimal set of assumptions that single out string theory as the only consistent UV completion of gravity. This work was recently featured in a Quanta Magazine article, [\"Are Strings Still Our Best Hope for a Theory of Everything?\"](https://www.quantamagazine.org/are-strings-still-our-best-hope-for-a-theory-of-everything-20260323/).",
     directions: [
       {
         slug: "string-theory-from-supersymmetry",
