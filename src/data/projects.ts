@@ -175,7 +175,7 @@ export const projects: Project[] = [
     slug: "bootstrapping-string-theory",
     title: "Bootstrapping String Theory",
     summary:
-      "Establishing that string theory is the unique ultraviolet completion of gravity, the theoretical foundation ensuring the tools used in my other projects are the right ones.",
+      "Understanding the minimal set of assumptions that isolate string theory as the unique ultraviolet completion of gravity.",
     status: "Active",
     imageUrl:
       "https://images.unsplash.com/photo-1768280511074-3b3effe7a139?w=1200&q=80",
@@ -187,7 +187,7 @@ export const projects: Project[] = [
         slug: "string-bootstrap",
         title: "The string bootstrap",
         description:
-          "Starting from general physical principles (unitarity, crossing symmetry, analyticity) and systematically constraining what scattering amplitudes are possible. Under increasingly mild assumptions, the unique consistent high-energy behavior turns out to be stringy: a concrete step toward proving that string theory is the only UV completion of gravity.",
+          "Starting from general physical principles (unitarity, crossing symmetry, analyticity) and systematically constraining what scattering amplitudes are possible, I am working to identify the minimal assumptions that single out string theory as the unique UV completion of gravity. Recently, I showed that maximal supersymmetry, together with two mild technical assumptions, is sufficient to uniquely fix the Veneziano amplitude, the hallmark of string theory. This is the first result establishing, in a precise sense, that supersymmetry alone can force the only consistent high-energy behavior to be stringy.",
         fullDescription: [
           "Is string theory the only consistent theory of quantum gravity, or just one possibility among many? The bootstrap approach tackles this question from the bottom up. I start with the most general scattering amplitude consistent with basic physical principles: unitarity (probabilities sum to one), crossing symmetry (the same amplitude describes different scattering channels), and analyticity (the amplitude is a well-behaved function of energy and angle). I then systematically narrow down what theories are allowed. If the only amplitudes that satisfy all the constraints turn out to be stringy, this is strong evidence that any consistent quantum theory of gravity must reduce to string theory at short distances.",
           "I have made progress from several complementary directions. I showed that string monodromy relations, identities among amplitudes long thought to be specific to string theory, in fact emerge from the low-energy structure of any consistent UV completion, suggesting that stringy structure is forced upon any theory of quantum gravity. I bootstrapped the KLT kernel connecting open- and closed-string amplitudes and found it to be highly constrained. I studied the space of allowed effective field theory coefficients, the \"EFT-hedron,\" and showed that supersymmetric positivity bounds dramatically shrink this space, pushing it toward the unique string theory point. Most recently, I proved that for a theory with maximal supersymmetry and two additional technical assumptions, the Veneziano amplitude is the unique UV completion, the first result establishing, in a precise sense, that the only consistent high-energy behavior is stringy.",
