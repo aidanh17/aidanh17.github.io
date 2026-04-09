@@ -27,7 +27,7 @@ export const projects: Project[] = [
       "Probing quantum gravity through gauge-gravity duality, from the BFSS matrix model to stringy black hole horizons.",
     status: "Active",
     imageUrl:
-      "https://images.unsplash.com/photo-1761232007376-85e5429a50eb?w=1200&q=80",
+      "/images/holography.jpg",
     imageCredit: { name: "Norbert Kowalczyk", url: "https://unsplash.com/@norbkov" },
     overview:
       "Holography, the idea that a theory of quantum gravity is equivalent to a lower-dimensional quantum theory without gravity, is one of the deepest insights in modern theoretical physics. I explore holographic dualities from multiple angles: testing the BFSS matrix model conjecture for M-theory and investigating how stringy effects modify black hole horizons.\n\nA central goal of this program is connecting holography with empirical observation. Remarkably, a regulated version of the BFSS matrix model that already exhibits semi-classical gravitational features could be simulated with as few as 7,000 qubits, placing a direct quantum simulation of gravity within reach of near-term quantum computers. More broadly, I am developing quantitative predictions, such as higher-point correlation functions, that can be tested against Monte Carlo simulations and, ultimately, laboratory realizations of holographic quantum systems. I am particularly interested in understanding what a quantum simulation of holographic models in the lab could teach us about quantum gravity.",
@@ -86,7 +86,7 @@ export const projects: Project[] = [
       "Using particle physics techniques to compute the gravitational waves produced when black holes scatter, providing high-precision predictions for detectors like LIGO.",
     status: "Active",
     imageUrl:
-      "https://images.unsplash.com/photo-1493810353548-4cdea49dea74?w=1200&q=80",
+      "/images/gravitational-waves.jpg",
     imageCredit: { name: "Julian Böck", url: "https://unsplash.com/@julian_boeck" },
     overview:
       "Gravitational wave astronomy has opened a new window onto the universe. To fully exploit observatories like LIGO and future detectors, increasingly precise theoretical predictions for the waveforms produced by compact binary systems are needed. I develop new methods, rooted in the scattering amplitudes program of particle physics, to compute these waveforms systematically and to high precision.",
@@ -131,7 +131,7 @@ export const projects: Project[] = [
       "Studying semi-classical gravity during inflation, a period of rapid expansion in the very early universe.",
     status: "Active",
     imageUrl:
-      "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1200&q=80",
+      "/images/inflation.jpg",
     imageCredit: { name: "Kristopher Roller", url: "https://unsplash.com/@krisroller" },
     overview:
       "Our universe underwent a brief period of rapid expansion, called inflation, in its very earliest moments. I study semi-classical gravity during this epoch, developing new theoretical tools for computing correlation functions in de Sitter space, the geometry that approximates the inflating universe, and deriving fundamental bounds on scalar field dynamics in these backgrounds.",
@@ -178,7 +178,7 @@ export const projects: Project[] = [
       "Understanding the minimal set of assumptions that isolate string theory as the unique ultraviolet completion of gravity.",
     status: "Active",
     imageUrl:
-      "https://images.unsplash.com/photo-1768280511074-3b3effe7a139?w=1200&q=80",
+      "/images/string-bootstrap.jpg",
     imageCredit: { name: "Resource Database", url: "https://unsplash.com/@resourcedatabase" },
     overview:
       "Many physicists claim that string theory is the unique consistent theory of quantum gravity. My goal is to make such claims precise and quantitative. Starting from minimal physical assumptions (unitarity, Lorentz invariance, analyticity), I am working to identify the minimal set of assumptions that single out string theory as the only consistent UV completion of gravity. Work in this direction was recently featured in a Quanta Magazine article, [\"Are Strings Still Our Best Hope for a Theory of Everything?\"](https://www.quantamagazine.org/are-strings-still-our-best-hope-for-a-theory-of-everything-20260323/).",

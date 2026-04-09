@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { positions, education } from "@/data/cv";
+import { positions, education, awards } from "@/data/cv";
 import { Timeline } from "@/components/Timeline";
 
 export const metadata: Metadata = {
@@ -18,6 +18,28 @@ export default function CVPage() {
 
       <Timeline title="Positions" entries={positions} />
       <Timeline title="Education" entries={education} />
+
+      <section className="mb-12">
+        <h2
+          className="text-xl font-semibold mb-4 pb-2 border-b"
+          style={{ color: "var(--foreground)", borderColor: "var(--border)" }}
+        >
+          Fellowships &amp; Awards
+        </h2>
+        <ul className="space-y-2">
+          {awards.map((a, i) => (
+            <li key={i} className="flex gap-3 text-sm">
+              <span
+                className="shrink-0 w-20 text-right"
+                style={{ color: "var(--muted)" }}
+              >
+                {a.year}
+              </span>
+              <span style={{ color: "var(--foreground)" }}>{a.title}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <div className="mt-12">
         <a

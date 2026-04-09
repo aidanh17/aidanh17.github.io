@@ -26,3 +26,19 @@ export const education: CVEntry[] = [
     institution: "UC Santa Barbara",
   },
 ];
+
+export interface Award {
+  year: string;
+  title: string;
+}
+
+export const awards: Award[] = [
+  { year: "2023", title: "Wirt and Mary Cornwell Prize" },
+  { year: "2022", title: "Rackham Predoctoral Fellow" },
+  { year: "2020–2021", title: "Leinweber Graduate Fellow" },
+  { year: "2020", title: "Peter Franken Award" },
+  { year: "2020", title: "NSF Graduate Research Fellowship — Honorable Mention" },
+  { year: "2019", title: "Undergraduate Research Award, UCSB" },
+  { year: "2017", title: "Worster Fellowship, UCSB" },
+  { year: "2015", title: "SURF Fellowship, UCSB" },
+];

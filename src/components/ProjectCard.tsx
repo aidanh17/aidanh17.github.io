@@ -6,6 +6,7 @@ export function ProjectCard({ project }: { project: Project }) {
     <Link
       href={`/research/${project.slug}`}
       className="group block relative overflow-hidden rounded-xl no-underline min-h-[220px] md:min-h-[280px]"
+      style={{ color: "white" }}
     >
       {/* Background image */}
       <div
