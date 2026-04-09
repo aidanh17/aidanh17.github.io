@@ -16,9 +16,9 @@ export default function ResearchPage() {
         Research
       </h1>
       <p className="mb-12 max-w-2xl" style={{ color: "var(--muted)" }}>
-        My research develops precise, testable predictions for experiments in
-        gravitational physics, using tools from quantum field theory and string
-        theory.
+        My research uses tools from quantum field theory and string theory to
+        develop precise predictions for gravitational physics and to understand
+        the fundamental structure of quantum gravity.
       </p>
       <div className="space-y-8">
         {projects.map((project) => (
