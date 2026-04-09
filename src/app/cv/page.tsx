@@ -22,8 +22,8 @@ export default function CVPage() {
       <div className="mt-12">
         <a
           href="/cv.pdf"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium text-white no-underline transition-opacity hover:opacity-90"
-          style={{ backgroundColor: "var(--color-accent)" }}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium no-underline transition-opacity hover:opacity-90"
+          style={{ backgroundColor: "var(--color-accent)", color: "white" }}
         >
           <svg
             width="18"
