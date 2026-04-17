@@ -128,13 +128,13 @@ export const projects: Project[] = [
     slug: "inflation",
     title: "Inflation",
     summary:
-      "Studying semi-classical gravity during inflation, a period of rapid expansion in the very early universe.",
+      "Studying semi-classical gravity during inflation, a proposed period of rapid expansion in the very early universe.",
     status: "Active",
     imageUrl:
       "/images/inflation.jpg",
     imageCredit: { name: "Kristopher Roller", url: "https://unsplash.com/@krisroller" },
     overview:
-      "The best current theory of the early universe is inflation, a brief period of rapid expansion in its very earliest moments. I study semi-classical gravity during this epoch, developing new theoretical tools for computing correlation functions in de Sitter space, the geometry that approximates the inflating universe, and deriving fundamental bounds on scalar field dynamics in these backgrounds.",
+      "The best current theory of the early universe is inflation, a proposed period of rapid expansion in its very earliest moments. I study semi-classical gravity during this epoch, developing new theoretical tools for computing correlation functions in de Sitter space, the geometry that approximates the inflating universe, and deriving fundamental bounds on scalar field dynamics in these backgrounds.",
     directions: [
       {
         slug: "field-excursion-bounds",

@@ -1,3 +1,9 @@
+export interface PopSciArticle {
+  outlet: string;
+  title: string;
+  url: string;
+}
+
 export interface Publication {
   authors: string[];
   title: string;
@@ -5,6 +11,7 @@ export interface Publication {
   doi?: string;
   journal?: string;
   year: number;
+  popSci?: PopSciArticle[];
 }
 
 export const publications: Publication[] = [
@@ -13,6 +20,13 @@ export const publications: Publication[] = [
     title: "String Theory from Maximal Supersymmetry",
     arxivId: "2601.11705",
     year: 2026,
+    popSci: [
+      {
+        outlet: "Quanta Magazine",
+        title: "Are Strings Still Our Best Hope for a Theory of Everything?",
+        url: "https://www.quantamagazine.org/are-strings-still-our-best-hope-for-a-theory-of-everything-20260323/",
+      },
+    ],
   },
   {
     authors: ["De Angelis, S.", "Herderschee, A.", "Roiban, R.", "Teng, F."],
@@ -28,6 +42,13 @@ export const publications: Publication[] = [
     arxivId: "2510.01554",
     journal: "JHEP 03 (2026) 025",
     year: 2025,
+    popSci: [
+      {
+        outlet: "Quantum Zeitgeist",
+        title: "Scalar Fields Limited by Null Geodesics",
+        url: "https://quantumzeitgeist.com/bounds-field-excursions-along-null-geodesics-revealing-implications/",
+      },
+    ],
   },
   {
     authors: ["Herderschee, A.", "Kudler-Flam, J."],
@@ -35,6 +56,13 @@ export const publications: Publication[] = [
       "Stringy algebras, stretched horizons, and quantum-connected wormholes",
     arxivId: "2510.01556",
     year: 2025,
+    popSci: [
+      {
+        outlet: "Quantum Zeitgeist",
+        title: "Wormholes & String Algebras Boost Locality",
+        url: "https://quantumzeitgeist.com/quantum-stringy-algebras-connected-wormholes-strengthened-locality-within-one/",
+      },
+    ],
   },
   {
     authors: ["Herderschee, A."],

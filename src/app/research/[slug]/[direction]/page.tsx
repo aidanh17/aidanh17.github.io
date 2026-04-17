@@ -111,6 +111,27 @@ export default async function DirectionPage({
                   {pub.journal && ` · ${pub.journal}`}
                   {` · arXiv:${pub.arxivId}`}
                 </div>
+                {pub.popSci && pub.popSci.length > 0 && (
+                  <div
+                    className="text-sm mt-1"
+                    style={{ color: "var(--muted)" }}
+                  >
+                    {pub.popSci.map((article, i) => (
+                      <span key={i}>
+                        {i > 0 && " · "}
+                        <span>Featured in </span>
+                        <a
+                          href={article.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="no-underline hover:underline"
+                        >
+                          {article.outlet}: &ldquo;{article.title}&rdquo;
+                        </a>
+                      </span>
+                    ))}
+                  </div>
+                )}
               </li>
             ))}
           </ul>
